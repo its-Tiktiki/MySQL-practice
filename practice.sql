@@ -3,6 +3,9 @@ CREATE DATABASE temp1;
 create database temp2;
 create database college;
 
+// if databse doesnt exists
+create database if not exists college;
+
 // deleting database
 DROP DATABASE temp1;
 drop database temp2;
