@@ -15,8 +15,14 @@ values
 (103, "rizvi");
 
 create table tem1(
-	id int unique
+	id int,
+    name varchar(50),
+    roll int,
+    city varchar(50),
+    primary key(id)
 );
 
 insert into tem1 values(101);
 select * from tem1;
+
+
