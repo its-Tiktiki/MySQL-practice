@@ -13,3 +13,10 @@ values
 (101, "rohan"),
 (102, "alif"),
 (103, "rizvi");
+
+create table tem1(
+	id int unique
+);
+
+insert into tem1 values(101);
+select * from tem1;

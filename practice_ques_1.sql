@@ -15,3 +15,4 @@ values
 (3, "casey", 40000);
 
 select * from employee;
+
