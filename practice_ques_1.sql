@@ -14,5 +14,6 @@ values
 (2, "bob", 30000),
 (3, "casey", 40000);
 
+// prints value
 select * from employee;
 
