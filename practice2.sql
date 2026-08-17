@@ -14,6 +14,7 @@ values
 (102, "alif"),
 (103, "rizvi");
 
+// create table 
 create table tem1(
 	id int,
     name varchar(50),
